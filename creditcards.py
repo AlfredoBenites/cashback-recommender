@@ -1,7 +1,15 @@
 credit_cards = {
-    "Discover it": {"Groceries": 0.05, "Gas": 0.01},
-    "Amex Blue": {"Groceries": 0.03, "Online Shopping": 0.01},
-    "Quicksilver": {"All": 0.015}
+    "Discover it": {
+        "Groceries": 0.05,
+        "Gas": 0.01
+    },
+    "Amex Blue": {
+        "Groceries": 0.03,
+        "Online Shopping": 0.05
+    },
+    "Quicksilver": {
+        "All": 0.015
+    }
 }
 
 def recommend_card(transaction):
